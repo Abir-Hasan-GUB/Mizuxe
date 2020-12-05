@@ -30,6 +30,9 @@ body {
     height: 100%;
     width: 100%; }
 
+#subscribe {
+  background: #252525; }
+
 @media (max-width: 576px) {
   #shocase h1 {
     font-size: 4rem; } }
