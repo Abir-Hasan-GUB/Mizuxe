@@ -49,6 +49,31 @@ body {
     background: #252525;
 }
 
+#about{
+    .card .card-header{
+        cursor: pointer;
+    }
+}
+
+#authors{
+    img{
+        margin-top: -50px;
+    }
+    .fa{
+        font-size: 25px;
+    }
+    .card{
+        transition: .4s;
+    }
+    .card:hover{
+        background: $primary;
+        color: #fff;
+        .fa{
+            color: #fff;
+        }
+    }
+}
+
 @media (max-width: 576px){
     #shocase{
         h1{
